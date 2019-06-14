@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/guoqiang/PycharmProjects/Learn_NumPy/tam-venv"
+set -gx VIRTUAL_ENV "/home/guoqiang/PycharmProjects/Numpy_learn/tam-venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

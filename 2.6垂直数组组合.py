@@ -2,7 +2,7 @@ from numpy import *
 # 垂直组合
 '''
 垂直组合 vstack((数组a,数组b,数组c))
-a,b,c三个数组必须列数一样，如若不一样，会抛出异常
+a,b,c三个数组必须列数一样，如若不一样，会抛出异常,行数无需考虑
 '''
 a = arange(12).reshape(3,4)
 b = arange(16).reshape(4,4)

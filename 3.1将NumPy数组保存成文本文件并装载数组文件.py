@@ -16,9 +16,9 @@ import numpy as np
                 默认为科学计数法
                 %.2f 小数点后保留两位
                 %s 指定为字符串
-2.loadtxt("filename",dtype="int/float/bool/...")
+2.loadtxt("filename",dtype=int/float/bool/...)
     "filename" -> 打开的文件名("a.txt")|(可以是路径[如:../../../a.txt])
-    dtype="int" -> 打开后的数组类型
+     dtype=int -> 打开后的数组类型
     返回一个NumPy数组
 '''
 a = np.arange(10).reshape(2,5)
